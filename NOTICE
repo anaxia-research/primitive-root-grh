@@ -1,0 +1,26 @@
+liouville-energy-rh
+Copyright 2026 Deep Bhattacharjee and Ushashi Bhattacharya
+
+The following parts are third-party or derived works under the Apache License,
+Version 2.0 (LICENSE-APACHE):
+
+Vinogradov.lean, Vinogradov/
+  From https://github.com/creelie/breakthrough-problems-3 (directory lean/),
+  by Deep Bhattacharjee. Changed here: the files that used the half-plane
+  `zeroFree` directly take it as an instance argument `[Fact Main.ZeroFree]`,
+  and Vinogradov/Final.lean and Vinogradov/EulerKronecker/Final.lean are
+  removed. The headers of Vinogradov/MRT.lean, Vinogradov/Riesz.lean,
+  Vinogradov/ContourShift.lean and Vinogradov/EulerLog.lean name the OpenAI
+  files they adapt.
+
+OAI/NumberTheory/DirichletL/LogarithmicControl.lean
+  OpenAI, the Lean library of https://github.com/openai/math, unchanged.
+
+PrimeNumberTheoremAnd/Mathlib/NumberTheory/Sieve/
+  https://github.com/AlexKontorovich/PrimeNumberTheoremAnd, commit
+  c39a751132c88b6e8080b74c74023fd95b3d8be0, the Selberg sieve by Arend
+  Mellendijk, copied unchanged.
+
+LiouvilleEnergyRH/Closure.lean
+  The proofs are taken from L. Alpöge's Lean project (alpo.ge, November 2026)
+  and are his work.
